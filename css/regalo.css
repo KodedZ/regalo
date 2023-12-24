@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .caja {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/img/caja.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .caja h1 {
+  cursor: pointer;
+}
+body .regalo {
+  display: none;
+  width: 500px;
+  height: 600px;
+  background-color: black;
+  border: 5px solid crimson;
+  border-radius: 50px;
+  position: relative;
+  top: 150px;
+}
+body .regalo .texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 0px 0px 5px crimson;
+}
+body .regalo .texto h1 {
+  position: relative;
+  top: 30px;
+  text-decoration: underline;
+}
+body .regalo .texto p {
+  position: relative;
+  top: 80px;
+}
+body .regalo .musica {
+  width: 100%;
+  position: relative;
+  top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=regalo.css.map */

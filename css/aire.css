@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../assets/img/cielo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main #invencible {
+  width: 100px;
+  height: 180px;
+  position: relative;
+  top: 200px;
+}
+body main #invencible img {
+  width: 100px;
+  height: 180px;
+  position: relative;
+  top: 200px;
+}
+body main #atom_eve {
+  width: 100px;
+  height: 220px;
+  position: relative;
+  top: 200px;
+}
+body main #atom_eve img {
+  width: 100px;
+  height: 220px;
+  position: relative;
+  top: 200px;
+}
+
+/*# sourceMappingURL=aire.css.map */

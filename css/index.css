@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  font-family: "Permanent Marker", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main h1 {
+  position: relative;
+  font-size: 2.8em;
+  text-align: center;
+  top: 360px;
+}
+main h1 .letra {
+  color: crimson;
+  text-shadow: 0px 0px 20px #F089C9;
+  width: 100px;
+  height: 100px;
+  animation: aparecer 1s ease-in-out infinite;
+}
+main h1 .inivisible {
+  visibility: hidden;
+}
+main .boton {
+  width: 100px;
+  height: 50px;
+  background-color: crimson;
+  border: 1px solid black;
+  border-radius: 50px;
+  box-shadow: 0 0 20px 1px #F089C9;
+  position: relative;
+  top: 500px;
+  left: -190px;
+  color: white;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+}
+main .boton:hover {
+  background-color: #F089C9;
+  box-shadow: 0 0 20px 1px crimson;
+  cursor: pointer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../assets/img/escenario.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+main img {
+  width: 100px;
+  height: 150px;
+}
+main #ai {
+  height: 180px;
+  position: relative;
+  top: 510px;
+  left: 42%;
+}
+main .aqua {
+  position: relative;
+  top: 750px;
+  left: 260px;
+}
+main .ruby {
+  position: relative;
+  top: 750px;
+  left: 260px;
+}
+main .akane {
+  position: relative;
+  top: 750px;
+  left: 260px;
+}
+main .kana {
+  position: relative;
+  top: 750px;
+  left: 260px;
+}
+main .separacion {
+  margin-left: 100px;
+}
+
+/*# sourceMappingURL=escenario.css.map */
